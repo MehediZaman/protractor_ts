@@ -8,7 +8,8 @@ describe("My first Test Suite", () =>{
        
     it("Test Case# 2",()=>{
         let a;
-        expect(a).toBeUndefined;
-    });
+        expect(a).toBeUndefined();
    
+    });
+
 });
