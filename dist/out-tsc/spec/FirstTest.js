@@ -5,7 +5,7 @@ describe("My first Test Suite", function () {
     });
     it("Test Case# 2", function () {
         var a;
-        expect(a).toBeUndefined;
+        expect(a).toBeUndefined();
     });
 });
 //# sourceMappingURL=FirstTest.js.map
