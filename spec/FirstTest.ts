@@ -4,23 +4,11 @@ describe("My first Test Suite", () =>{
     
         let a = 2;        
         expect(a).toBe(2);
-        
+    });    
        
-    });
-
-    it("Test Case# 2", () =>{
-    
+    it("Test Case# 2",()=>{
         let a;
-        expect(a).toBeDefined("Not defined!");
-        
-        
-    });
-
-    it("Test Case# 3", () =>{
-    
-        let a = "Apple";
-        expect(a).toBeTruthy;
-        
+        expect(a).toBeUndefined;
     });
    
 });
